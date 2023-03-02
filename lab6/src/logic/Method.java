@@ -88,15 +88,12 @@ public class Method {
 
     public static <T> List<T> convertToList(T[] arr)
     {
-        // создаем пустой список
+    
         List<T> list = new ArrayList<>();
-
-        // помещаем каждый элемент массива в список
+        
         for (T i: arr) {
             list.add(i);
         }
-
-        // возвращаем список
         return list;
     }
 
